@@ -20,15 +20,26 @@ Automatically detects whether to use `doas` or `sudo` for privilege escalation, 
 
 ## Installation
 
-1. Clone this repository or download the `pkgup.cr` file.
+### Option 1: Use the Precompiled Binary
 
+1. Download the `pkgup` binary from the [Releases](#) section.
+2. Move it to a directory in your `PATH` (e.g., `/usr/local/bin`):
+
+   ```bash
+   sudo mv pkgup /usr/local/bin/
+   sudo chmod +x /usr/local/bin/pkgup
+   ```
+
+### Option 2: Build from Source
+
+1. Clone this repository or download the `pkgup.cr` file.
 2. Compile the program:
 
    ```bash
    crystal build pkgup.cr --release -o pkgup
    ```
 
-3. (Optional) Move the executable to a directory in your PATH:
+3. (Optional) Move the compiled binary to your `PATH`:
 
    ```bash
    sudo mv pkgup /usr/local/bin/
