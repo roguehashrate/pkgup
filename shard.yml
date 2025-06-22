@@ -1,0 +1,13 @@
+name: pkgup
+version: 0.1.0
+
+authors:
+  - roguehashrate <roguehashrate@gmail.com>
+
+targets:
+  pkgup:
+    main: src/pkgup.cr
+
+crystal: '>= 1.16.3'
+
+license: MIT
