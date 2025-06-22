@@ -1,6 +1,6 @@
 # PkgUp
 
-A simple Crystal CLI tool to update system packages and Flatpak apps on Debian-based Linux systems.  
+A simple Crystal CLI tool to update system packages and Flatpak apps on Debian-based GNU/Linux systems.  
 Automatically detects whether to use `doas` or `sudo` for privilege escalation, and prefers `nala` if installed, falling back to `apt`.
 
 ## Features
